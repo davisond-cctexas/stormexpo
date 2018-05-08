@@ -2,6 +2,10 @@
 @import "font-awesome.css";
 /*@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,400,400italic,500,700,900);*/
 
+:root {
+  --blue: #1b75bc;
+  --red: #be1e2d;
+}
 html,
 body {
   background: #1b75bc;
@@ -123,12 +127,12 @@ img + .text-2 {
   vertical-align: middle;
   text-align: center;
   text-shadow: 1px 1px #92422c;
-  background: #2f2e33;
+  background: var(--blue);
   margin-top: 25px;
 }
 .btn:hover {
-  background: #bb5539;
-  text-shadow: 1px 1px #262529;
+  background: var(--red);
+  /* text-shadow: 1px 1px #262529; */
 }
 .list li {
   margin-top: 19px;
@@ -250,7 +254,7 @@ background-color: #be1e2d;
   text-align: center;
   /* padding-top: 107px; */
   /* padding-bottom: 150px; */
-  /* margin-top: -700px; */
+  margin-top: -700px;
 }
 h1 { transition: all .4s ease;}
 h1,
@@ -440,7 +444,7 @@ footer {
   width: 50px;
   height: 50px;
   text-align: center;
-  background: #2f2e33;
+  background: var(--red);
 }
 .social-icons li i {
   line-height: 52px;
@@ -448,10 +452,10 @@ footer {
   color: #fff;
   vertical-align: middle;
   display: inline-block;
-  text-shadow: 1px 1px #252428;
+  /* text-shadow: 1px 1px #252428; */
 }
 .social-icons li:hover a {
-  background: #bb5539;
+  background: var(--blue);
   transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   -webkit-transform: scale(-1, 1);
@@ -460,7 +464,7 @@ footer {
   transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   -webkit-transform: scale(-1, 1);
-  text-shadow: 1px 1px #92422c;
+  /* text-shadow: 1px 1px #92422c; */
 }
 /*toTop*/
 #toTop {
@@ -836,3 +840,10 @@ footer {
   }
 }
 /*Core variables and mixins*/
+
+
+.background {
+      background-image: url("http://www.cctexas.com/images/header-logo.svg");
+  height:  1000px;
+  width: 1000px;
+}
