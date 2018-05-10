@@ -239,12 +239,34 @@ p {
   padding-top: 21px;
 }
 /************Header************/
+
+.toplogo{
+    
+    width: 200px;
+    padding-top: 16px;
+}
+
+.footerlogo{
+    background-image: url(footer-logo.png); 
+    
+  
+    width: 160px;
+    height: 160px;
+    
+    background-repeat: no-repeat;
+}
 header {
   /*background: url(bg-1.jpg) center 0 no-repeat;*/
   /*background: url(tropical-cyclone-catarina-1167137_1920.jpg) center 0 no-repeat;*/
 
-  background: url(giphy-downsized-large.gif) center 0 no-repeat;
-    background-position: 0px;
+  background: url(giphy-downsized-large.gif) center   no-repeat;
+/*    background-position: 0px;*/
+   
+/*    background-position-y: top;*/
+/*    background-position-y: bottom;*/
+/*    background-position-y: right;*/
+/*    background-position-y: left;*/
+/*    background-position: top 45px bottom 0px;*/
      
   background-size: 100% auto;
 }
@@ -850,3 +872,5 @@ footer {
 .border {
       border: 1px solid #000;
 }
+GET | 302 | ? ms | GitHub.com
+GET | 200 | ? ms
