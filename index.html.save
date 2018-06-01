@@ -169,12 +169,15 @@
                             
                         </ul>
                         <ul class="social-icons clearfix">
-                            <a href="" ><img style="width: 30px; height:  30px;" src="2000px-F_icon.svg.png">
-                            <a href=""  ><img style="width: 30px; height:  30px;" src="twitter-icon.png">
-                            <a href=""  ><img style="width: 30px; height:  30px;" src="instagram-icon.png">
-                            <a href="" ><img style="width: 30px; height:  30px;" src="youtube-icon.png">
+                            <a href<img style="width: 30px; height:  30px;" src="2000px-F_icon.svg.png">
+                            <a hre<img style="width: 30px; height:  30px;" src="twitter-icon.png">
+                            <a hre<img style="width: 30px; height:  30px;" src="instagram-icon.png">
+                            <a hre<img style="width: 30px; height:  30px;" src="youtube-icon.png">
 
-
+                            <!-- <img src="facebook-icon.png"> -->
+                         <!--    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li> -->
                         </ul>
                     </div>
                     <div class="fleft">
